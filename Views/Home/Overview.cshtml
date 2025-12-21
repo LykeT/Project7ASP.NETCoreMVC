@@ -1,0 +1,42 @@
+﻿<h2>Movies</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Director</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (var i = 0; i < Model.MovieList.Count; i++)
+        {
+            <tr>
+                <td><a href="/MovieDetails/@Model.MovieList[i].ID">@Model.MovieList[i].Title</a></td>
+                <td>@Model.MovieList[i].Year</td>
+                <td>@Model.MovieList[i].Director</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<form method="post">
+    <div style="display: flex; justify-content: center">
+        <div style="display: grid; grid-gap: 5px; width; 300px">
+            <input asp-for="MovieInput.Title" class="form-control" />
+            <input asp-for="MovieInput.Year" class="form-control" />
+            <input asp-for="MovieInput.Director" class="form-control" />
+            <button type="submit" class="btn btn-primary" style="width: 80px; margin-top: 5px">Add Movie</button>
+            <div class="form-group">
+
+                <span asp-validation-for="MovieInput.Title" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+   

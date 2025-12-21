@@ -1,0 +1,23 @@
+﻿@page "{Id:Guid}"
+@model Project7ASP.NETCoreMVC.MovieDetailsModel
+
+<h2>Movie Details</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Director</th>
+        </tr>
+    </thead>
+    <a href="/Overview">Back to Overview</a>
+    <tbody>
+        <tr>
+            <td>@Model.ExistingMovie.Title</td>
+            <td>@Model.ExistingMovie.Year</td>
+            <td>@Model.ExistingMovie.Director</td>
+        </tr>
+
+    </tbody>
+</table>
