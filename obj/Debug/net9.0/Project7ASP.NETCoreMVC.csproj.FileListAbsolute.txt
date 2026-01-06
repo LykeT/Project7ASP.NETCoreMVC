@@ -1,0 +1,9 @@
+C:\Users\lyket\source\repos\ZTM.DotNet\Project7ASP.NETCoreMVC\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\lyket\source\repos\ZTM.DotNet\Project7ASP.NETCoreMVC\obj\Debug\net9.0\Project7ASP.NETCoreMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lyket\source\repos\ZTM.DotNet\Project7ASP.NETCoreMVC\obj\Debug\net9.0\Project7ASP.NETCoreMVC.AssemblyInfoInputs.cache
+C:\Users\lyket\source\repos\ZTM.DotNet\Project7ASP.NETCoreMVC\obj\Debug\net9.0\Project7ASP.NETCoreMVC.AssemblyInfo.cs
+C:\Users\lyket\source\repos\ZTM.DotNet\Project7ASP.NETCoreMVC\obj\Debug\net9.0\Project7ASP.NETCoreMVC.csproj.CoreCompileInputs.cache
+C:\Users\lyket\source\repos\ZTM.DotNet\Project7ASP.NETCoreMVC\obj\Debug\net9.0\Project7ASP.NETCoreMVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lyket\source\repos\ZTM.DotNet\Project7ASP.NETCoreMVC\obj\Debug\net9.0\Project7ASP.NETCoreMVC.RazorAssemblyInfo.cache
+C:\Users\lyket\source\repos\ZTM.DotNet\Project7ASP.NETCoreMVC\obj\Debug\net9.0\Project7ASP.NETCoreMVC.RazorAssemblyInfo.cs
+C:\Users\lyket\source\repos\ZTM.DotNet\Project7ASP.NETCoreMVC\obj\Debug\net9.0\Project7ASP.NETCoreMVC.sourcelink.json

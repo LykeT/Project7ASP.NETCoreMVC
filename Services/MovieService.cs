@@ -2,7 +2,7 @@
 
 namespace Project7ASP.NETCoreMVC.Services
 {
-    public class MovieService: IMovieService
+    public class MovieService : IMovieService
     {
         public static List<Movie> _movielist { get; set; } = new();
 
@@ -20,4 +20,5 @@ namespace Project7ASP.NETCoreMVC.Services
         {
             return _movielist.Find(m => m.ID == Id);
         }
+    }
 }

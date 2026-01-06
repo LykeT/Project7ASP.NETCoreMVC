@@ -27,16 +27,16 @@ namespace Project7ASP.NETCoreMVC.Controllers
 
         //Movie/overview
         [HttpPost]
-        public IActionResult Overview(FormModel )
+        public IActionResult Overview(FormModel model)
         {
             if (!ModelState.IsValid)
             {
                 // Return the same page to show validation messages
-                return View();
+                return View(model);
             }
             Movie newMovie = MovieInput.ToMovie();
             _movieService.AddMovie(newMovie);
-            return RedirectToAction();
+            return RedirectToAction("Success!");
         }
 
         [HttpGet]

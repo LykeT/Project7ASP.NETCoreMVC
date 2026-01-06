@@ -23,4 +23,4 @@ namespace Project7ASP.NETCoreMVC.Models
         }
     }
 }
-}
+
