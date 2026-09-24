@@ -20,12 +20,13 @@ namespace Project7ASP.NETCoreMVC.Models
             ExistingMovie = _movieService.GetById(Id);
             return View();
         }
-        */
+        
         [HttpPost]
         public IActionResult Index(Guid Id)
         {
             ExistingMovie = _movieService.GetById(Id);
             return View();
         }
+        */
     }
 }
